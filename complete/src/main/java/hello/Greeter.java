@@ -9,9 +9,9 @@ import static java.lang.String.format;
 
  public class Greeter
  {
-    public String greet(String name) {
-      System.out.println("Greet was called with param " + name);
-      return format("Greetings %s how are you doing today!", name);
-    }
+    //public String greet(String name) {
+    //  System.out.println("Greet was called with param " + name);
+    //  return format("Greetings %s how are you doing today!", name);
+    //}
 
  }
