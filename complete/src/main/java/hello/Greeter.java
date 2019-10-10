@@ -11,7 +11,7 @@ import static java.lang.String.format;
  {
     public String greet(String name) {
       System.out.println("Greet was called with param " + name);
-      return format("Greetings %s how are you doing today!", name);
+      return format("Greetings %s how are you doing not today!", name);
     }
 
  }
