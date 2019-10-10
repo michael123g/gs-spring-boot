@@ -36,6 +36,6 @@ public class HelloControllerIT {
     public void getHello() throws Exception {
         ResponseEntity<String> response = template.getForEntity(base.toString(),
                 String.class);
-        assertThat(response.getBody(), equalTo("Greetings Franck! How are you doing today?"));
+        assertThat(response.getBody(), equalTo("Greetings Spring Boot!"));
     }
 }
